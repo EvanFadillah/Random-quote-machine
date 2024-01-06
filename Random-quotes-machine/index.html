@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes Machines</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+</head>
+<body>
+    <wrapper id="quote-box">
+        <i class='bx bxs-quote-left'></i>
+        <div id="text">
+
+        </div>
+        <i class='bx bxs-quote-right'></i>
+        <div id="author">
+
+        </div>
+        <div class="button">
+            <div class="social-media">
+                <a id="tweet-quote" href="https://twitter.com/intent/tweet?hashtags=quotes&amp;
+                related=freecodecamp&amp;text=%22Either%20you%20run%20the%20day%2C%20or%20the%20day%20runs%20you.
+                %22%20Jim%20Rohn" 
+                target="_blank">
+                <i class='bx bxl-twitter'></i></a>
+                <a href="https://www.tumblr.com/widgets/share/tool?posttype=quote&amp;
+                tags=quotes,freecodecamp&amp;caption=Pablo%20Picasso&amp;
+                content=Every%20child%20is%20an%20artist.%20%20The%20problem%20is%20how%20to%20remain%20an%20artist%20once%20he%20grows%20up.
+                &amp;canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&amp;shareSource=tumblr_share_button" target="_blank" id="tumblr-quote">
+                <i class='bx bxl-tumblr'></i>
+                </a>
+            </div>
+        <div id="new-quote">
+            <button onclick="getQuote()">New quote</button>
+        </div>
+    </div>  
+    </wrapper>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
